@@ -15,7 +15,7 @@ public class RoadTrip {
     public static void main(String[] args){
         
         final double BIG_RED_MILES_PER_GALLON = 13.0;
-        final double AVERAGE_GAS_PRICE = 2.65;
+        final double AVERAGE_GAS_PRICE = 3.11;
         
         String carMake = "1997 Dodge Dakota";
         String carName = "BigRed";
