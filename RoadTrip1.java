@@ -23,7 +23,7 @@ public class RoadTrip {
         int currentNumberOfWeight = 1150;
         boolean carFull = false;
         double tripOdometer = 0.0;
-        double cashOnHand = 125.00;
+        double cashOnHand = 140.00;
         double distanceToCherrySpringsStatePark = 177.0;
         boolean destinationReached = false;
         
