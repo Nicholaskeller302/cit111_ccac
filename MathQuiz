@@ -1,0 +1,66 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package week5;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Nicholas.keller302
+ */
+public class MathQuiz {
+    
+    public static void main(String[] args) {
+        //variables
+        int count = 0;
+        int userinput = 0;
+        String Question = "(5*x)+(13-x)";
+        int UserAnswer = 15;
+        int x = 1;
+        String StepOne = "(5*2)+ (13-2)";
+        String StepTwo = "(5*2)+11";
+        String FinalStep = "(10 + 11)";
+        int Answer = 21;
+
+                
+        Scanner input = new Scanner(System.in);
+        
+        // Top page of the test
+        System.out.println("Chapter 1 Math Test");
+        System.out.println("Solve for " + Question + ": x=?" );
+        // Time to solve!
+        
+        // Options for the x variable
+        while(x > 0) {
+            System.out.println(x);
+            if(x==2){
+                break;
+            }
+            x++;
+        }
+        
+        
+        
+        // Answer Space (First Step)
+        System.out.println("Step 1:");
+        System.out.println("" + StepOne );
+        // 13 - 2 is 11
+        
+        // Answer Space (Second Step)
+        System.out.println("Step 2:");
+        System.out.println("" + StepTwo);
+        // 5 times 2 is 10
+        
+        // Answer Space (Last Step)
+        System.out.println("Final Step:");
+        System.out.println("" + FinalStep);
+        // 10 + 11 is 21
+        System.out.println("The answer is " + Answer);
+        // Correct!
+        
+    } // close main
+    
+} // close class
